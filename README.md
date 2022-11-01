@@ -9,4 +9,4 @@ Twitter Clone Using HTML and CSS
 
 ## Live Site:
 
-[Twitter Clone] (https://abdeladimch.github.io/twitter-clone/)
+[Twitter Clone](https://abdeladimch.github.io/twitter-clone/)
