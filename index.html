@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    />
+    <link rel="stylesheet" href="Styling/styles.css" />
+    <title>Twitter Clone</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="imgs/icons8-twitter-48.png" />
+
+        <div class="home-active">
+          <i class="material-icons">home</i>
+          <span>Home</span>
+        </div>
+        <div>
+          <i class="material-icons-outlined">tag</i>
+          <span>Explore</span>
+        </div>
+        <div>
+          <i class="material-icons-outlined">notifications</i>
+          <span>notifications</span>
+        </div>
+        <div>
+          <i class="material-icons-outlined">mail</i>
+          <span>Messages</span>
+        </div>
+        <div>
+          <i class="material-icons-outlined">bookmarks</i>
+          <span>Bookmarks</span>
+        </div>
+        <div>
+          <i class="material-icons-outlined">list_alt</i>
+          <span>Lists</span>
+        </div>
+        <div>
+          <i class="material-icons-outlined">person</i>
+          <span>Profile</span>
+        </div>
+        <div>
+          <i class="material-icons-outlined">more_horiz</i>
+          <span>more</span>
+        </div>
+        <button>Tweet</button>
+      </nav>
+      <div class="main-account">
+        <div class="acc-container">
+          <img class="acc" src="imgs/dogekatana.jpg" />
+        </div>
+        <div class="meta-info">
+          <div class="name">Doge</div>
+          <div class="user">@dogekatana</div>
+        </div>
+        <i class="material-icons-outlined">more_horiz</i>
+      </div>
+    </header>
+    <main>
+      <div class="main-feed">
+        <section class="first">
+          <h2>Home</h2>
+          <div class="tweet-box">
+            <div>
+              <img class="tweet-img" src="imgs/dogekatana.jpg" />
+            </div>
+            <div class="cont">
+              <textarea
+                cols="45"
+                rows="3"
+                placeholder="What's happening?"
+              ></textarea>
+              <div class="ruler"></div>
+              <div class="footer">
+                <div class="icons">
+                  <i class="material-icons-outlined">image</i>
+                  <i class="material-icons-outlined">gif_box</i>
+                  <i class="material-icons-outlined">bar_chart</i>
+                  <i class="material-icons-outlined">sentiment_satisfied</i>
+                  <i class="material-icons-outlined">pending_actions</i>
+                  <i class="material-icons-outlined">location_on</i>
+                </div>
+                <div class="btn">
+                  <button>Tweet</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div>
+              <img class="pfp" src="imgs/eng.jpg" />
+            </div>
+            <div class="info">
+              <div class="author-info">
+                <span class="name"> World of Engineering </span>
+                <span class="user"> @engineers_feed </span>
+                <span class="publish-time">&#183; 19h</span>
+              </div>
+              <div>
+                Your family member will not consider you an engineer unless you
+                repair any of the home appliances.
+              </div>
+              <div class="reactions">
+                <i class="material-icons-outlined">reply</i>
+                <i class="material-icons-outlined">replay</i>
+                <i class="material-icons-outlined">favorite</i>
+                <i class="material-icons-outlined">file_upload</i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div>
+              <img class="pfp" src="imgs/LEX.jpg" />
+            </div>
+            <div class="info">
+              <div class="author-info">
+                <span class="name"> Lex Fridman </span>
+                <span class="user"> @lexfridman </span>
+                <span class="publish-time">&#183; 13h</span>
+              </div>
+              <div>
+                Your family member will not consider you an engineer unless you
+                repair any of the home appliances.
+              </div>
+              <div class="reactions">
+                <i class="material-icons-outlined">reply</i>
+                <i class="material-icons-outlined">replay</i>
+                <i class="material-icons-outlined">favorite</i>
+                <i class="material-icons-outlined">file_upload</i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div>
+              <img class="pfp" src="imgs/eng.jpg" />
+            </div>
+            <div class="info">
+              <div class="author-info">
+                <span class="name"> World of Engineering </span>
+                <span class="user"> @engineers_feed </span>
+                <span class="publish-time">&#183; 21h</span>
+              </div>
+              <div>Asking an AI to show me Mars in the year 2070</div>
+              <img class="content-img" src="imgs/mars.jpg" />
+              <div class="reactions">
+                <i class="material-icons-outlined">reply</i>
+                <i class="material-icons-outlined">replay</i>
+                <i class="material-icons-outlined">favorite</i>
+                <i class="material-icons-outlined">file_upload</i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="side-feed">
+        <div class="p">
+          <input type="search" placeholder="Search" />
+        </div>
+        <div class="trends">
+          <div class="trends-for-u">Trends for you</div>
+          <div class="all">
+            <div class="trend">
+              <div class="trending">Trending</div>
+              <div class="tag">SpaceX</div>
+              <div class="no-tweets">297K tweets</div>
+            </div>
+            <div>
+              <i class="material-icons-outlined">more_horiz</i>
+            </div>
+          </div>
+          <div class="all">
+            <div class="trend">
+              <div class="trending">Business & finance · Trending</div>
+              <div class="tag">#Bitcoin</div>
+              <div class="no-tweets">233K tweets</div>
+            </div>
+            <div>
+              <i class="material-icons-outlined">more_horiz</i>
+            </div>
+          </div>
+          <div class="all">
+            <div class="trend">
+              <div class="trending">Travel · Trending</div>
+              <div class="tag">#Tesla</div>
+              <div class="no-tweets">5.122 tweets</div>
+            </div>
+            <div>
+              <i class="material-icons-outlined">more_horiz</i>
+            </div>
+          </div>
+          <div class="all second">
+            <div class="trend">
+              <div class="trending">Gaming · Trending</div>
+              <div class="tag">#ELDENRING</div>
+              <div class="no-tweets">8.894 tweets</div>
+            </div>
+            <div>
+              <i class="material-icons-outlined">more_horiz</i>
+            </div>
+          </div>
+        </div>
+        <div class="who-to-follow">
+          <div class="who">Who to follow</div>
+          <div class="follow">
+            <div class="follow-ppl">
+              <div>
+                <img src="imgs/elon.jpg" />
+              </div>
+              <div class="stats">
+                <div class="name">Elon Musk</div>
+                <div class="user">@elonmusk</div>
+              </div>
+              <button class="btn-follow">Follow</button>
+            </div>
+          </div>
+          <div class="follow second">
+            <div class="follow-ppl">
+              <div>
+                <img src="imgs/jeff.jpg" />
+              </div>
+              <div class="stats">
+                <div class="name">Jeff Bezos</div>
+                <div class="user">@JeffBezos</div>
+              </div>
+              <button class="btn-follow">Follow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

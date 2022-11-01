@@ -1,0 +1,356 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1500px;
+  margin: 0;
+  padding-right: 40px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 220px;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: large;
+  width: 100%;
+  height: 70%;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 15px 8px 10px;
+  transition: background-color 0.2s;
+  border-radius: 30px;
+}
+
+nav div:hover,
+.main-account:hover {
+  background-color: rgba(173, 173, 173, 0.4);
+  cursor: pointer;
+}
+
+nav i {
+  margin-right: 15px;
+}
+
+.logo {
+  width: 37px;
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.home-active {
+  font-weight: 700;
+}
+
+.logo:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+nav button {
+  border: none;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  padding: 12px 8px;
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 190px;
+  cursor: pointer;
+}
+
+nav button:hover,
+.footer button:hover {
+  background-color: rgba(29, 155, 240, 0.9);
+}
+
+.main-account {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 30px;
+  transition: background-color 0.2s;
+  margin-top: 80px;
+}
+
+.acc {
+  width: 40px;
+  border-radius: 40px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.user,
+.publish-time {
+  font-size: 15px;
+  color: rgb(172, 165, 165);
+  margin-top: 3px;
+}
+
+.content .name:hover,
+.content .user:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.meta-info {
+  flex-basis: 70%;
+  padding-left: 13px;
+}
+
+main {
+  display: flex;
+  margin-left: 320px;
+}
+
+.main-feed {
+  flex: 1.7;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-radius: 1px solid lightgray;
+}
+
+.side-feed {
+  flex: 1;
+  flex-basis: 70%;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 19px;
+}
+.tweet-box {
+  display: flex;
+  align-items: top;
+}
+
+.tweet-img,
+.content .pfp,
+.follow img {
+  width: 55px;
+  border-radius: 55px;
+  margin-right: 20px;
+}
+
+textarea {
+  flex-basis: 100%;
+  outline: none;
+  border: none;
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+.ruler {
+  height: 2px;
+  border-bottom: 1px solid lightgray;
+  width: 97%;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 30%;
+  margin-top: 20px;
+  padding: 0 8px 15px 8px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.footer i {
+  color: rgb(29, 155, 240);
+  display: flex;
+  align-items: center;
+}
+
+.icons i {
+  margin-right: 10px;
+}
+
+.icons {
+  width: 78%;
+  display: flex;
+  align-items: center;
+}
+
+.footer button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.btn {
+  width: 30%;
+}
+
+section {
+  border-bottom: 1px solid lightgray;
+  padding-left: 20px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.first:hover {
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  align-items: top;
+  line-height: 23px;
+  padding: 10px 20px 10px 0;
+}
+
+section:hover {
+  background-color: rgba(211, 211, 211, 0.37);
+}
+
+.content-img {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.reactions {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 10px;
+  color: rgb(113, 127, 138);
+}
+
+.reactions i:hover {
+  color: rgb(29, 155, 240);
+}
+
+.trends-for-u,
+.who {
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.p {
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+  background-color: rgb(247, 249, 249);
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 13px;
+  height: 50px;
+}
+
+.trends {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(247, 249, 249);
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px 0 0 0;
+}
+
+.trend {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  padding: 15px;
+}
+
+.all:hover,
+.follow:hover {
+  background-color: rgba(211, 211, 211, 0.37);
+  cursor: pointer;
+}
+
+.second:hover {
+  border-radius: 0 0 20px 20px;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  height: 60%;
+  line-height: 1.35;
+}
+
+.trending,
+.no-tweets {
+  color: rgb(113, 127, 138);
+  font-size: 13px;
+}
+
+.tag {
+  font-weight: 600;
+}
+
+.follow-ppl {
+  display: flex;
+  align-items: center;
+}
+
+.stats {
+  flex-basis: 45%;
+}
+
+.follow button {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.follow {
+  padding: 10px 0 10px 20px;
+}
+
+.who-to-follow {
+  background-color: rgb(247, 249, 249);
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px 0 0 0;
+}
