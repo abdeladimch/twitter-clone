@@ -1,6 +1,6 @@
-# Youtube Clone
+# Twitter Clone
 
-Youtube Clone Using HTML and CSS
+Twitter Clone Using HTML and CSS
 
 ## Description:
 
